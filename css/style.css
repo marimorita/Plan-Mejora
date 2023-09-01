@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body {
+    width: 99vw;
+    height: 100vh;
+}
+nav {
+    background-image: url(/images/gunsNroses.jpg);
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+nav h1{
+    font-size: 100px;
+    font-style: inherit;
+    color: antiquewhite;
+}
+head{
+    background-image: url(/images/gunsNroses.jpg);
+}
+.texto1{
+    background-color: rgb(1, 43, 80);
+    color: white;
+}
+.principal{
+    width: 100%;
+    height: 75px;
+    border-radius: 10px 10px 0 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+.principal img{
+    background-position: 50%;
+}
+.Contenedores{
+    display: flex;
+    background: #fff;
+    height: 500px;
+    width: 300px;
+    justify-content: center;
+    justify-content: space-;
+    border-radius: 10px;
+}
+span{
+    font-size: 10px;
+}
+
