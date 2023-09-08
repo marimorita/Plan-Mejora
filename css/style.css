@@ -1,57 +1,110 @@
 *{
-    margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
-}
-body {
-    width: 99vw;
-    height: 100vh;
-}
-nav {
-    background-image: url(/images/gunsNroses.jpg);
-    width: 100%;
-    height: 100%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-}
-nav h1{
-    font-size: 100px;
-    font-style: inherit;
-    color: antiquewhite;
-}
-head{
-    background-image: url(/images/gunsNroses.jpg);
-}
-.texto1{
-    background-color: rgb(1, 43, 80);
-    color: white;
-}
-.principal{
-    width: 100%;
-    height: 75px;
-    border-radius: 10px 10px 0 0;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-content: center;
-}
-.principal img{
-    background-position: 50%;
-}
-.Contenedores{
-    display: flex;
-    background: #fff;
-    height: 500px;
-    width: 300px;
-    justify-content: center;
-    justify-content: space-;
-    border-radius: 10px;
-}
-span{
-    font-size: 10px;
+    margin: 0;
 }
 
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.cabecera {
+    display: flex;
+    position: relative;
+    font-family: 'Bowlby One SC', cursive;
+}
+
+.cartas2{
+    width: 100%;
+    height: 70vh;
+}
+
+.cartas2 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center -160px;
+}
+.titulo{
+    position: absolute;
+    color: azure;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    text-align: center;
+    font-size: 85px;
+    text-shadow: 0px 0px 2px #000;
+}
+
+.entrada{
+    font-family: 'Roboto', sans-serif;
+    padding: 15px;
+    text-align: justify;
+    background: #012b50;
+    color: white;
+}
+
+.contenedor_ficha {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ficha{
+    max-width: 20em;
+    margin: 1em;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color:#FFF;
+    box-shadow: 0 6px 16px #999;
+    font-size: 15px;
+}
+
+.ficha .foto{
+    max-height: 20em;
+    height: 40vh;
+    overflow: hidden;
+    border-radius: 10px 10px 0 0;
+    display: flex;
+    justify-content: center;
+    filter: grayscale(100%);
+}
+
+.ficha .fotos img {
+    object-fit: cover;
+}
+
+.nombre {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    margin: 10px;
+    padding-top: 5px;
+    font-size: 12px;
+}
+
+.info{
+    margin: 10px;
+    height: 40vh;
+    padding: 5px;
+    text-align: justify;
+}
+
+.banda {
+    background: #012b50;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-radius: 0 0 10px 10px;
+}
+
+footer{
+    text-align: center;
+    font-size: .8em;
+    margin-bottom: 1em;
+}
